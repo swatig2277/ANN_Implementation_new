@@ -13,8 +13,8 @@ def training(config_path) :
 
     LOSS_FUNCTION = config["params"]["loss_function"]
     OPTIMIZER =    config["params"]["optimizer"]
-    METRICS = config["params"]["metrix"]
-    NUM_CLASSES = config["params"]["no_classes"]
+    METRICS = config["params"]["metrics"]
+    NUM_CLASSES = config["params"]["num_classes"]
    
 
 
